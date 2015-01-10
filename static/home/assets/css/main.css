@@ -667,6 +667,17 @@ a:hover {
   text-decoration: underline;
 }
 
+.hr-line {
+  width: 530px;
+}
+@media screen and (max-width: 768px) {
+  .hr-line {
+    width: 60%;
+    margin: 10px auto;
+  }
+}
+
+
 /*  03 SPRITE'S
 ---------------------------------------------------------------------- */
 /*  05 PRIMARY STYLES
